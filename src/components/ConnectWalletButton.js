@@ -20,7 +20,7 @@ export function ConnectWalletButton() {
     });
   }
 
-  if (state.selectedAddress && state.networkId !== 3) {
+  if (state.selectedAddress && state.networkId !== 4) {
     return (
       <div className="col-12 p-4">
         <NetworkErrorMessage />
